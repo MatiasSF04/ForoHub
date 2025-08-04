@@ -24,7 +24,7 @@
 
 ---
 
-## 🔐 Seguridad y autenticación
+## Seguridad y autenticación
 
 - JWT como mecanismo de autenticación.
 - Filtros de seguridad con `SecurityFilterChain`.
@@ -41,7 +41,7 @@
 
 ---
 
-## 📦 Requisitos
+## Requisitos
 
 - Java 17+
 - Maven
@@ -49,11 +49,12 @@
 
 ---
 
-## 🛠 Instalación rápida
+## Instalación rápida
 
 1. Clonar el repo:
 
    ```bash
+   git clone https://github.com/MatiasSF04/ForoHub.git
    
 Configurar base de datos y variables de entorno:
 Crea un archivo application.properties local o usa .env/perfil prod con las siguientes variables:
@@ -79,3 +80,5 @@ DB_PASSWORD----Contraseña de base de datos
 JWT_SECRET-------Clave secreta para firmar tokens  
 
 ---
+
+Autor:  _@MatiasSF04_
